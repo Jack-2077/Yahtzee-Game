@@ -62,7 +62,6 @@ class FullHouse extends Rule {
     const freqs = this.freq(dice);
     return freqs.includes(2) && freqs.includes(3) ? this.score : 0;
   };
-  // TODO
 }
 
 /** Check for small straights. */
